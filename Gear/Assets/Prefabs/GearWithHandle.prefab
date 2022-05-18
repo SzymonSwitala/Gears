@@ -337,6 +337,7 @@ GameObject:
   - component: {fileID: 6858173858884536014}
   - component: {fileID: 6916353096499201584}
   - component: {fileID: 1431403903449709800}
+  - component: {fileID: 1839333915422950668}
   m_Layer: 0
   m_Name: GearWithHandle
   m_TagString: Untagged
@@ -374,7 +375,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   connectedGears:
   - {fileID: 0}
-  hasHandle: 1
 --- !u!135 &1431403903449709800
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -388,3 +388,17 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.46
   m_Center: {x: 0.0000015497207, y: 0.18, z: -0.0000019073485}
+--- !u!114 &1839333915422950668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8743181629485033763}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8965bbf6bbfd1d4fa7c678190bbfddd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gear: {fileID: 6916353096499201584}
+  mouseSensitivity: 10
