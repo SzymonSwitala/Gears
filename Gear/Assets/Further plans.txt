@@ -1,0 +1,5 @@
+#Further plans and improvements
+
+- Later I could add a motor that spins the gears and is's controlled by a lever.
+- Larger gears should move slower than smaller ones.
+- I could add the possibility of attaching and detaching the gears to the socket.
