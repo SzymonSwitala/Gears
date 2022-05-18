@@ -374,7 +374,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   connectedGears:
   - {fileID: 0}
-  canRotateByMouse: 1
+  hasHandle: 1
 --- !u!135 &1431403903449709800
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -386,5 +386,5 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.3973893
-  m_Center: {x: 0.0000015497207, y: -0.039519213, z: -0.0000019073485}
+  m_Radius: 0.46
+  m_Center: {x: 0.0000015497207, y: 0.18, z: -0.0000019073485}

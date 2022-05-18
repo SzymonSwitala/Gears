@@ -3,10 +3,10 @@ using UnityEngine;
 public class Gear : MonoBehaviour
 {
     [SerializeField] private Gear[] connectedGears;
-    [SerializeField] private bool canRotateByMouse;
+    [SerializeField] private bool hasHandle;
     private void OnMouseDrag()
     {
-        if (canRotateByMouse)
+        if (hasHandle)
         {
             float xAxisRotation = Input.GetAxis("Mouse X") * 10f;
             RotateGear(xAxisRotation, this);

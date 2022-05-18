@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4158062091955393153}
   - component: {fileID: 4135032093328020095}
-  - component: {fileID: 8449907374341236903}
   m_Layer: 0
   m_Name: Gear
   m_TagString: Untagged
@@ -47,19 +46,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   connectedGears: []
---- !u!135 &8449907374341236903
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2292124293171461484}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.3973893
-  m_Center: {x: 0.0000015497207, y: -0.039519213, z: -0.0000019073485}
+  canRotateByMouse: 0
 --- !u!1 &3869458387083439522
 GameObject:
   m_ObjectHideFlags: 0

@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 3028947602876046885}
   - component: {fileID: 3088916827168726747}
-  - component: {fileID: 897305238605754679}
   m_Layer: 0
   m_Name: DoubleGear
   m_TagString: Untagged
@@ -50,20 +49,7 @@ MonoBehaviour:
   connectedGears:
   - {fileID: 0}
   - {fileID: 0}
---- !u!136 &897305238605754679
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 897305238605754824}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.5
-  m_Height: 1.4872961
-  m_Direction: 1
-  m_Center: {x: 0.0000000038739882, y: 0.27600503, z: -0.000000032689805}
+  canRotateByMouse: 0
 --- !u!1 &2742568323844006150
 GameObject:
   m_ObjectHideFlags: 0
